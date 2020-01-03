@@ -1,0 +1,10 @@
+
+<p> 
+  <a href="mailto:matt.thurston@live.com?body={{body}}&subject=Found {{errors.length}} issues with Game #####">Email Issues</a>
+</p>
+<hello name="{{ name }}"></hello>
+<ul style="list-style: none;">
+  <li *ngFor="let e of errors">
+    {{e}}
+  </li>
+</ul>
